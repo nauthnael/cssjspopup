@@ -1,9 +1,9 @@
 var listUrlpp = [
-  "https://bit.ly/3kfz8Nc",
-  "https://bit.ly/3i9wfLs",
-  "https://bit.ly/3i0yD73",
-  "https://bit.ly/2VAtI5g",
-  "https://bit.ly/3AThQLM"
+  'https://bit.ly/3kfz8Nc',
+  'https://bit.ly/3i9wfLs',
+  'https://bit.ly/3i0yD73',
+  'https://bit.ly/2VAtI5g',
+  'https://bit.ly/3AThQLM'
 ];
 
 var url_popup = answers[Math.floor(Math.random() * listUrlpp.length)];
