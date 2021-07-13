@@ -1,12 +1,12 @@
-var listurl = [
-  "bit.ly/3kfz8Nc",
-  "bit.ly/3i9wfLs",
-  "bit.ly/3i0yD73",
-  "bit.ly/2VAtI5g",
-  "bit.ly/3AThQLM"
+var listUrlpp = [
+  'https://bit.ly/3kfz8Nc',
+  'https://bit.ly/3i9wfLs',
+  'https://bit.ly/3i0yD73',
+  'https://bit.ly/2VAtI5g',
+  'https://bit.ly/3AThQLM'
 ];
 
-var url_popup = answers[Math.floor(Math.random() * listurl.length)];
+var url_popup = _.sample(listUrlpp);
       //<![CDATA[
       function addEvent(obj, eventName, func){
         if (obj.attachEvent)
