@@ -6,7 +6,7 @@ var listurl = [
   "bit.ly/3AThQLM"
 ];
 
-var url_popup = Math.floor(Math.random() * listurl.length);
+var url_popup = answers[Math.floor(Math.random() * listurl.length)];
       //<![CDATA[
       function addEvent(obj, eventName, func){
         if (obj.attachEvent)
