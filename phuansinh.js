@@ -4,9 +4,11 @@ var listurl = [
   "https://bit.ly/3i0yD73",
   "https://bit.ly/2VAtI5g",
   "https://bit.ly/3AThQLM"
-];
+]
 
-var url_popup = answer[Math.floor(Math.random() * listurl.length)];
+var url_popup = listurl[Math.floor(Math.random() * listurl.length)];
+
+
       //<![CDATA[
       function addEvent(obj, eventName, func){
         if (obj.attachEvent)
