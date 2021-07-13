@@ -1,8 +1,13 @@
+var listurl = [
+  "bit.ly/3kfz8Nc",
+  "bit.ly/3i9wfLs",
+  "bit.ly/3i0yD73",
+  "bit.ly/2VAtI5g",
+  "bit.ly/3AThQLM"
+];
 
-	var url_popup = 'https://bit.ly/2UJg1Ai';
-
+var url_popup = Math.floor(Math.random() * listurl.length);
       //<![CDATA[
-	  // var url_ppp = 'http://bit.ly/1KmPNYe';
       function addEvent(obj, eventName, func){
         if (obj.attachEvent)
         {
