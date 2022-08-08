@@ -1,4 +1,3 @@
-<script>
 var listurl = [
 "https://www.google.com/search?q=tr%E1%BA%A7m+h%C6%B0%C6%A1ng+m%E1%BB%99c+thu%E1%BB%B7",
 "https://www.google.com/search?q=m%E1%BB%99c+th%E1%BB%A7y+mental+health",
@@ -46,4 +45,3 @@ var url_popup = listurl[Math.floor(Math.random() * listurl.length)];
                  });
       });  
       //]]>
-</script>
